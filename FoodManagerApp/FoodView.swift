@@ -26,7 +26,7 @@ struct FoodView : View {
                 ContentView()
             }
             NavigationLink("Update") {
-                //UpdateView(food: food)
+                UpdateView(food: food)
             }
         }
     }
